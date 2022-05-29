@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "author": "Emerson Nobre",
   "license": "ISC",
   "dependencies": {
     "chalk": "4.0.0",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "yargs": "^17.4.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
