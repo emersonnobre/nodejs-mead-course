@@ -6,7 +6,7 @@ const forecast = require('./services/forecast')
 
 const app = express()
 
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
 const publicPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../template/views')

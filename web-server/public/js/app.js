@@ -1,4 +1,7 @@
-const apiUrl = 'http://localhost:3000/weather?address='
+// DEV
+// const apiUrl = 'http://localhost:3000/weather?address='
+// PROD
+const apiUrl = '/weather?address='
 
 const weatherForm = document.getElementById('weather-form')
 const addressInput = document.getElementById('address-input')

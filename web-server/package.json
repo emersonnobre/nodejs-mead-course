@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set ENV=environments/local-dev.env && nodemon src/app.js -e js,hbs"
+    "dev": "set ENV=environments/local-dev.env && nodemon src/app.js -e js,hbs",
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
